@@ -1,0 +1,3853 @@
+{
+    "test_suite": "JSON Pretty Print Benchmark",
+    "version": 1.0,
+    "generated_at": "2026-11-05T12:12:00Z",
+    "metadata": {
+        "description": "Synthetic dataset designed to test JSON formatting, pretty-printing, and parsing performance.",
+        "maintainer": {
+            "name": "Test Suite Generator",
+            "email": "devnull@example.com"
+        },
+        "tags": [
+            "pretty-print",
+            "benchmark",
+            "formatting",
+            "large-payload"
+        ]
+    },
+    "configuration": {
+        "strict_mode": true,
+        "max_depth": 5,
+        "allowed_types": [
+            "string",
+            "number",
+            "boolean",
+            "array",
+            "object",
+            "null"
+        ],
+        "encoding": "UTF-8"
+    },
+    "users": [
+        {
+            "id": 1,
+            "uuid": "usr-00001-abc-007b",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_1",
+                "last_name": "Sample_1",
+                "age": 21,
+                "address": {
+                    "street": "101 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0001",
+                    "coordinates": {
+                        "lat": -37.799,
+                        "lng": 145.001
+                    }
+                }
+            },
+            "scores": [
+                53,
+                59,
+                89,
+                78,
+                70
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 2,
+            "uuid": "usr-00002-abc-00f6",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_2",
+                "last_name": "Sample_2",
+                "age": 22,
+                "address": {
+                    "street": "102 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0002",
+                    "coordinates": {
+                        "lat": -37.798,
+                        "lng": 145.002
+                    }
+                }
+            },
+            "scores": [
+                82,
+                65,
+                64,
+                54,
+                73
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 3,
+            "uuid": "usr-00003-abc-0171",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_3",
+                "last_name": "Sample_3",
+                "age": 23,
+                "address": {
+                    "street": "103 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0003",
+                    "coordinates": {
+                        "lat": -37.797,
+                        "lng": 145.003
+                    }
+                }
+            },
+            "scores": [
+                93,
+                50,
+                56,
+                61,
+                74
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 4,
+            "uuid": "usr-00004-abc-01ec",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_4",
+                "last_name": "Sample_4",
+                "age": 24,
+                "address": {
+                    "street": "104 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0004",
+                    "coordinates": {
+                        "lat": -37.796,
+                        "lng": 145.004
+                    }
+                }
+            },
+            "scores": [
+                59,
+                86,
+                55,
+                95,
+                70
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 5,
+            "uuid": "usr-00005-abc-0267",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_5",
+                "last_name": "Sample_5",
+                "age": 25,
+                "address": {
+                    "street": "105 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0005",
+                    "coordinates": {
+                        "lat": -37.795,
+                        "lng": 145.005
+                    }
+                }
+            },
+            "scores": [
+                73,
+                60,
+                65,
+                55,
+                56
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 6,
+            "uuid": "usr-00006-abc-02e2",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_6",
+                "last_name": "Sample_6",
+                "age": 26,
+                "address": {
+                    "street": "106 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0006",
+                    "coordinates": {
+                        "lat": -37.794,
+                        "lng": 145.006
+                    }
+                }
+            },
+            "scores": [
+                51,
+                63,
+                77,
+                95,
+                69
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 7,
+            "uuid": "usr-00007-abc-035d",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_7",
+                "last_name": "Sample_7",
+                "age": 27,
+                "address": {
+                    "street": "107 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0007",
+                    "coordinates": {
+                        "lat": -37.793,
+                        "lng": 145.007
+                    }
+                }
+            },
+            "scores": [
+                83,
+                69,
+                50,
+                64,
+                90
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 8,
+            "uuid": "usr-00008-abc-03d8",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_8",
+                "last_name": "Sample_8",
+                "age": 28,
+                "address": {
+                    "street": "108 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0008",
+                    "coordinates": {
+                        "lat": -37.792,
+                        "lng": 145.008
+                    }
+                }
+            },
+            "scores": [
+                56,
+                80,
+                82,
+                94,
+                77
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 9,
+            "uuid": "usr-00009-abc-0453",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_9",
+                "last_name": "Sample_9",
+                "age": 29,
+                "address": {
+                    "street": "109 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0009",
+                    "coordinates": {
+                        "lat": -37.791,
+                        "lng": 145.009
+                    }
+                }
+            },
+            "scores": [
+                66,
+                94,
+                57,
+                85,
+                99
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 10,
+            "uuid": "usr-00010-abc-04ce",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_10",
+                "last_name": "Sample_10",
+                "age": 30,
+                "address": {
+                    "street": "110 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0010",
+                    "coordinates": {
+                        "lat": -37.79,
+                        "lng": 145.01
+                    }
+                }
+            },
+            "scores": [
+                67,
+                95,
+                65,
+                64,
+                53
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 11,
+            "uuid": "usr-00011-abc-0549",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_11",
+                "last_name": "Sample_11",
+                "age": 31,
+                "address": {
+                    "street": "111 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0011",
+                    "coordinates": {
+                        "lat": -37.789,
+                        "lng": 145.011
+                    }
+                }
+            },
+            "scores": [
+                59,
+                69,
+                79,
+                70,
+                78
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 12,
+            "uuid": "usr-00012-abc-05c4",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_12",
+                "last_name": "Sample_12",
+                "age": 32,
+                "address": {
+                    "street": "112 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0012",
+                    "coordinates": {
+                        "lat": -37.788,
+                        "lng": 145.012
+                    }
+                }
+            },
+            "scores": [
+                50,
+                87,
+                80,
+                84,
+                51
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 13,
+            "uuid": "usr-00013-abc-063f",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_13",
+                "last_name": "Sample_13",
+                "age": 33,
+                "address": {
+                    "street": "113 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0013",
+                    "coordinates": {
+                        "lat": -37.787,
+                        "lng": 145.013
+                    }
+                }
+            },
+            "scores": [
+                70,
+                99,
+                54,
+                71,
+                59
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 14,
+            "uuid": "usr-00014-abc-06ba",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_14",
+                "last_name": "Sample_14",
+                "age": 34,
+                "address": {
+                    "street": "114 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0014",
+                    "coordinates": {
+                        "lat": -37.786,
+                        "lng": 145.014
+                    }
+                }
+            },
+            "scores": [
+                59,
+                99,
+                91,
+                98,
+                82
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 15,
+            "uuid": "usr-00015-abc-0735",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_15",
+                "last_name": "Sample_15",
+                "age": 35,
+                "address": {
+                    "street": "115 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0015",
+                    "coordinates": {
+                        "lat": -37.785,
+                        "lng": 145.015
+                    }
+                }
+            },
+            "scores": [
+                56,
+                73,
+                91,
+                78,
+                85
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 16,
+            "uuid": "usr-00016-abc-07b0",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_16",
+                "last_name": "Sample_16",
+                "age": 36,
+                "address": {
+                    "street": "116 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0016",
+                    "coordinates": {
+                        "lat": -37.784,
+                        "lng": 145.016
+                    }
+                }
+            },
+            "scores": [
+                59,
+                98,
+                82,
+                71,
+                95
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 17,
+            "uuid": "usr-00017-abc-082b",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_17",
+                "last_name": "Sample_17",
+                "age": 37,
+                "address": {
+                    "street": "117 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0017",
+                    "coordinates": {
+                        "lat": -37.783,
+                        "lng": 145.017
+                    }
+                }
+            },
+            "scores": [
+                66,
+                65,
+                83,
+                83,
+                73
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 18,
+            "uuid": "usr-00018-abc-08a6",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_18",
+                "last_name": "Sample_18",
+                "age": 38,
+                "address": {
+                    "street": "118 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0018",
+                    "coordinates": {
+                        "lat": -37.782,
+                        "lng": 145.018
+                    }
+                }
+            },
+            "scores": [
+                92,
+                65,
+                79,
+                88,
+                76
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 19,
+            "uuid": "usr-00019-abc-0921",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_19",
+                "last_name": "Sample_19",
+                "age": 39,
+                "address": {
+                    "street": "119 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0019",
+                    "coordinates": {
+                        "lat": -37.781,
+                        "lng": 145.019
+                    }
+                }
+            },
+            "scores": [
+                83,
+                97,
+                86,
+                77,
+                93
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 20,
+            "uuid": "usr-00020-abc-099c",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_20",
+                "last_name": "Sample_20",
+                "age": 40,
+                "address": {
+                    "street": "120 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0020",
+                    "coordinates": {
+                        "lat": -37.78,
+                        "lng": 145.02
+                    }
+                }
+            },
+            "scores": [
+                87,
+                91,
+                53,
+                68,
+                96
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 21,
+            "uuid": "usr-00021-abc-0a17",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_21",
+                "last_name": "Sample_21",
+                "age": 41,
+                "address": {
+                    "street": "121 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0021",
+                    "coordinates": {
+                        "lat": -37.779,
+                        "lng": 145.021
+                    }
+                }
+            },
+            "scores": [
+                79,
+                60,
+                72,
+                75,
+                51
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 22,
+            "uuid": "usr-00022-abc-0a92",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_22",
+                "last_name": "Sample_22",
+                "age": 42,
+                "address": {
+                    "street": "122 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0022",
+                    "coordinates": {
+                        "lat": -37.778,
+                        "lng": 145.022
+                    }
+                }
+            },
+            "scores": [
+                74,
+                56,
+                98,
+                91,
+                83
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 23,
+            "uuid": "usr-00023-abc-0b0d",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_23",
+                "last_name": "Sample_23",
+                "age": 43,
+                "address": {
+                    "street": "123 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0023",
+                    "coordinates": {
+                        "lat": -37.777,
+                        "lng": 145.023
+                    }
+                }
+            },
+            "scores": [
+                94,
+                89,
+                88,
+                98,
+                67
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 24,
+            "uuid": "usr-00024-abc-0b88",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_24",
+                "last_name": "Sample_24",
+                "age": 44,
+                "address": {
+                    "street": "124 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0024",
+                    "coordinates": {
+                        "lat": -37.776,
+                        "lng": 145.024
+                    }
+                }
+            },
+            "scores": [
+                92,
+                88,
+                79,
+                96,
+                69
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 25,
+            "uuid": "usr-00025-abc-0c03",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_25",
+                "last_name": "Sample_25",
+                "age": 45,
+                "address": {
+                    "street": "125 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0025",
+                    "coordinates": {
+                        "lat": -37.775,
+                        "lng": 145.025
+                    }
+                }
+            },
+            "scores": [
+                97,
+                68,
+                97,
+                73,
+                68
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 26,
+            "uuid": "usr-00026-abc-0c7e",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_26",
+                "last_name": "Sample_26",
+                "age": 46,
+                "address": {
+                    "street": "126 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0026",
+                    "coordinates": {
+                        "lat": -37.774,
+                        "lng": 145.026
+                    }
+                }
+            },
+            "scores": [
+                60,
+                95,
+                57,
+                65,
+                60
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 27,
+            "uuid": "usr-00027-abc-0cf9",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_27",
+                "last_name": "Sample_27",
+                "age": 47,
+                "address": {
+                    "street": "127 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0027",
+                    "coordinates": {
+                        "lat": -37.773,
+                        "lng": 145.027
+                    }
+                }
+            },
+            "scores": [
+                62,
+                51,
+                97,
+                58,
+                77
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 28,
+            "uuid": "usr-00028-abc-0d74",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_28",
+                "last_name": "Sample_28",
+                "age": 48,
+                "address": {
+                    "street": "128 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0028",
+                    "coordinates": {
+                        "lat": -37.772,
+                        "lng": 145.028
+                    }
+                }
+            },
+            "scores": [
+                76,
+                92,
+                77,
+                60,
+                89
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 29,
+            "uuid": "usr-00029-abc-0def",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_29",
+                "last_name": "Sample_29",
+                "age": 49,
+                "address": {
+                    "street": "129 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0029",
+                    "coordinates": {
+                        "lat": -37.771,
+                        "lng": 145.029
+                    }
+                }
+            },
+            "scores": [
+                100,
+                65,
+                99,
+                95,
+                98
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 30,
+            "uuid": "usr-00030-abc-0e6a",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_30",
+                "last_name": "Sample_30",
+                "age": 50,
+                "address": {
+                    "street": "130 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0030",
+                    "coordinates": {
+                        "lat": -37.77,
+                        "lng": 145.03
+                    }
+                }
+            },
+            "scores": [
+                86,
+                74,
+                54,
+                62,
+                78
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 31,
+            "uuid": "usr-00031-abc-0ee5",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_31",
+                "last_name": "Sample_31",
+                "age": 51,
+                "address": {
+                    "street": "131 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0031",
+                    "coordinates": {
+                        "lat": -37.769,
+                        "lng": 145.031
+                    }
+                }
+            },
+            "scores": [
+                62,
+                98,
+                63,
+                76,
+                76
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 32,
+            "uuid": "usr-00032-abc-0f60",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_32",
+                "last_name": "Sample_32",
+                "age": 52,
+                "address": {
+                    "street": "132 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0032",
+                    "coordinates": {
+                        "lat": -37.768,
+                        "lng": 145.032
+                    }
+                }
+            },
+            "scores": [
+                68,
+                65,
+                86,
+                90,
+                50
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 33,
+            "uuid": "usr-00033-abc-0fdb",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_33",
+                "last_name": "Sample_33",
+                "age": 53,
+                "address": {
+                    "street": "133 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0033",
+                    "coordinates": {
+                        "lat": -37.767,
+                        "lng": 145.033
+                    }
+                }
+            },
+            "scores": [
+                70,
+                96,
+                78,
+                65,
+                58
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 34,
+            "uuid": "usr-00034-abc-1056",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_34",
+                "last_name": "Sample_34",
+                "age": 54,
+                "address": {
+                    "street": "134 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0034",
+                    "coordinates": {
+                        "lat": -37.766,
+                        "lng": 145.034
+                    }
+                }
+            },
+            "scores": [
+                74,
+                75,
+                97,
+                70,
+                68
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 35,
+            "uuid": "usr-00035-abc-10d1",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_35",
+                "last_name": "Sample_35",
+                "age": 55,
+                "address": {
+                    "street": "135 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0035",
+                    "coordinates": {
+                        "lat": -37.765,
+                        "lng": 145.035
+                    }
+                }
+            },
+            "scores": [
+                70,
+                64,
+                82,
+                57,
+                96
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 36,
+            "uuid": "usr-00036-abc-114c",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_36",
+                "last_name": "Sample_36",
+                "age": 56,
+                "address": {
+                    "street": "136 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0036",
+                    "coordinates": {
+                        "lat": -37.764,
+                        "lng": 145.036
+                    }
+                }
+            },
+            "scores": [
+                85,
+                54,
+                97,
+                100,
+                64
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 37,
+            "uuid": "usr-00037-abc-11c7",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_37",
+                "last_name": "Sample_37",
+                "age": 57,
+                "address": {
+                    "street": "137 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0037",
+                    "coordinates": {
+                        "lat": -37.763,
+                        "lng": 145.037
+                    }
+                }
+            },
+            "scores": [
+                64,
+                51,
+                58,
+                96,
+                100
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 38,
+            "uuid": "usr-00038-abc-1242",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_38",
+                "last_name": "Sample_38",
+                "age": 58,
+                "address": {
+                    "street": "138 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0038",
+                    "coordinates": {
+                        "lat": -37.762,
+                        "lng": 145.038
+                    }
+                }
+            },
+            "scores": [
+                99,
+                51,
+                86,
+                96,
+                53
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 39,
+            "uuid": "usr-00039-abc-12bd",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_39",
+                "last_name": "Sample_39",
+                "age": 59,
+                "address": {
+                    "street": "139 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0039",
+                    "coordinates": {
+                        "lat": -37.761,
+                        "lng": 145.039
+                    }
+                }
+            },
+            "scores": [
+                98,
+                88,
+                58,
+                51,
+                76
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 40,
+            "uuid": "usr-00040-abc-1338",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_40",
+                "last_name": "Sample_40",
+                "age": 60,
+                "address": {
+                    "street": "140 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0040",
+                    "coordinates": {
+                        "lat": -37.76,
+                        "lng": 145.04
+                    }
+                }
+            },
+            "scores": [
+                80,
+                76,
+                54,
+                77,
+                64
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 41,
+            "uuid": "usr-00041-abc-13b3",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_41",
+                "last_name": "Sample_41",
+                "age": 61,
+                "address": {
+                    "street": "141 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0041",
+                    "coordinates": {
+                        "lat": -37.759,
+                        "lng": 145.041
+                    }
+                }
+            },
+            "scores": [
+                83,
+                64,
+                85,
+                97,
+                64
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 42,
+            "uuid": "usr-00042-abc-142e",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_42",
+                "last_name": "Sample_42",
+                "age": 62,
+                "address": {
+                    "street": "142 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0042",
+                    "coordinates": {
+                        "lat": -37.758,
+                        "lng": 145.042
+                    }
+                }
+            },
+            "scores": [
+                100,
+                77,
+                59,
+                73,
+                64
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 43,
+            "uuid": "usr-00043-abc-14a9",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_43",
+                "last_name": "Sample_43",
+                "age": 63,
+                "address": {
+                    "street": "143 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0043",
+                    "coordinates": {
+                        "lat": -37.757,
+                        "lng": 145.043
+                    }
+                }
+            },
+            "scores": [
+                53,
+                90,
+                68,
+                83,
+                71
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 44,
+            "uuid": "usr-00044-abc-1524",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_44",
+                "last_name": "Sample_44",
+                "age": 64,
+                "address": {
+                    "street": "144 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0044",
+                    "coordinates": {
+                        "lat": -37.756,
+                        "lng": 145.044
+                    }
+                }
+            },
+            "scores": [
+                88,
+                90,
+                72,
+                79,
+                97
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 45,
+            "uuid": "usr-00045-abc-159f",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_45",
+                "last_name": "Sample_45",
+                "age": 65,
+                "address": {
+                    "street": "145 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0045",
+                    "coordinates": {
+                        "lat": -37.755,
+                        "lng": 145.045
+                    }
+                }
+            },
+            "scores": [
+                78,
+                77,
+                83,
+                93,
+                79
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 46,
+            "uuid": "usr-00046-abc-161a",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_46",
+                "last_name": "Sample_46",
+                "age": 66,
+                "address": {
+                    "street": "146 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0046",
+                    "coordinates": {
+                        "lat": -37.754,
+                        "lng": 145.046
+                    }
+                }
+            },
+            "scores": [
+                64,
+                60,
+                77,
+                72,
+                91
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 47,
+            "uuid": "usr-00047-abc-1695",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_47",
+                "last_name": "Sample_47",
+                "age": 67,
+                "address": {
+                    "street": "147 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0047",
+                    "coordinates": {
+                        "lat": -37.753,
+                        "lng": 145.047
+                    }
+                }
+            },
+            "scores": [
+                94,
+                66,
+                91,
+                63,
+                69
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 48,
+            "uuid": "usr-00048-abc-1710",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_48",
+                "last_name": "Sample_48",
+                "age": 68,
+                "address": {
+                    "street": "148 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0048",
+                    "coordinates": {
+                        "lat": -37.752,
+                        "lng": 145.048
+                    }
+                }
+            },
+            "scores": [
+                69,
+                52,
+                100,
+                87,
+                96
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 49,
+            "uuid": "usr-00049-abc-178b",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_49",
+                "last_name": "Sample_49",
+                "age": 69,
+                "address": {
+                    "street": "149 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0049",
+                    "coordinates": {
+                        "lat": -37.751,
+                        "lng": 145.049
+                    }
+                }
+            },
+            "scores": [
+                66,
+                51,
+                95,
+                74,
+                54
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 50,
+            "uuid": "usr-00050-abc-1806",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_50",
+                "last_name": "Sample_50",
+                "age": 20,
+                "address": {
+                    "street": "150 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0050",
+                    "coordinates": {
+                        "lat": -37.75,
+                        "lng": 145.05
+                    }
+                }
+            },
+            "scores": [
+                97,
+                76,
+                54,
+                80,
+                98
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 51,
+            "uuid": "usr-00051-abc-1881",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_51",
+                "last_name": "Sample_51",
+                "age": 21,
+                "address": {
+                    "street": "151 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0051",
+                    "coordinates": {
+                        "lat": -37.749,
+                        "lng": 145.051
+                    }
+                }
+            },
+            "scores": [
+                69,
+                74,
+                71,
+                95,
+                93
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 52,
+            "uuid": "usr-00052-abc-18fc",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_52",
+                "last_name": "Sample_52",
+                "age": 22,
+                "address": {
+                    "street": "152 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0052",
+                    "coordinates": {
+                        "lat": -37.748,
+                        "lng": 145.052
+                    }
+                }
+            },
+            "scores": [
+                64,
+                81,
+                76,
+                70,
+                59
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 53,
+            "uuid": "usr-00053-abc-1977",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_53",
+                "last_name": "Sample_53",
+                "age": 23,
+                "address": {
+                    "street": "153 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0053",
+                    "coordinates": {
+                        "lat": -37.747,
+                        "lng": 145.053
+                    }
+                }
+            },
+            "scores": [
+                74,
+                81,
+                76,
+                62,
+                85
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 54,
+            "uuid": "usr-00054-abc-19f2",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_54",
+                "last_name": "Sample_54",
+                "age": 24,
+                "address": {
+                    "street": "154 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0054",
+                    "coordinates": {
+                        "lat": -37.746,
+                        "lng": 145.054
+                    }
+                }
+            },
+            "scores": [
+                68,
+                70,
+                69,
+                53,
+                56
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 55,
+            "uuid": "usr-00055-abc-1a6d",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_55",
+                "last_name": "Sample_55",
+                "age": 25,
+                "address": {
+                    "street": "155 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0055",
+                    "coordinates": {
+                        "lat": -37.745,
+                        "lng": 145.055
+                    }
+                }
+            },
+            "scores": [
+                61,
+                66,
+                95,
+                95,
+                58
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 56,
+            "uuid": "usr-00056-abc-1ae8",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_56",
+                "last_name": "Sample_56",
+                "age": 26,
+                "address": {
+                    "street": "156 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0056",
+                    "coordinates": {
+                        "lat": -37.744,
+                        "lng": 145.056
+                    }
+                }
+            },
+            "scores": [
+                67,
+                54,
+                53,
+                87,
+                94
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 57,
+            "uuid": "usr-00057-abc-1b63",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_57",
+                "last_name": "Sample_57",
+                "age": 27,
+                "address": {
+                    "street": "157 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0057",
+                    "coordinates": {
+                        "lat": -37.743,
+                        "lng": 145.057
+                    }
+                }
+            },
+            "scores": [
+                65,
+                63,
+                93,
+                64,
+                71
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 58,
+            "uuid": "usr-00058-abc-1bde",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_58",
+                "last_name": "Sample_58",
+                "age": 28,
+                "address": {
+                    "street": "158 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0058",
+                    "coordinates": {
+                        "lat": -37.742,
+                        "lng": 145.058
+                    }
+                }
+            },
+            "scores": [
+                95,
+                63,
+                85,
+                73,
+                54
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 59,
+            "uuid": "usr-00059-abc-1c59",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_59",
+                "last_name": "Sample_59",
+                "age": 29,
+                "address": {
+                    "street": "159 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0059",
+                    "coordinates": {
+                        "lat": -37.741,
+                        "lng": 145.059
+                    }
+                }
+            },
+            "scores": [
+                76,
+                75,
+                71,
+                88,
+                81
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 60,
+            "uuid": "usr-00060-abc-1cd4",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_60",
+                "last_name": "Sample_60",
+                "age": 30,
+                "address": {
+                    "street": "160 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0060",
+                    "coordinates": {
+                        "lat": -37.74,
+                        "lng": 145.06
+                    }
+                }
+            },
+            "scores": [
+                65,
+                61,
+                69,
+                76,
+                99
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 61,
+            "uuid": "usr-00061-abc-1d4f",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_61",
+                "last_name": "Sample_61",
+                "age": 31,
+                "address": {
+                    "street": "161 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0061",
+                    "coordinates": {
+                        "lat": -37.739,
+                        "lng": 145.061
+                    }
+                }
+            },
+            "scores": [
+                62,
+                89,
+                86,
+                56,
+                75
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 62,
+            "uuid": "usr-00062-abc-1dca",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_62",
+                "last_name": "Sample_62",
+                "age": 32,
+                "address": {
+                    "street": "162 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0062",
+                    "coordinates": {
+                        "lat": -37.738,
+                        "lng": 145.062
+                    }
+                }
+            },
+            "scores": [
+                96,
+                86,
+                62,
+                93,
+                74
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 63,
+            "uuid": "usr-00063-abc-1e45",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_63",
+                "last_name": "Sample_63",
+                "age": 33,
+                "address": {
+                    "street": "163 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0063",
+                    "coordinates": {
+                        "lat": -37.737,
+                        "lng": 145.063
+                    }
+                }
+            },
+            "scores": [
+                58,
+                64,
+                95,
+                72,
+                83
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 64,
+            "uuid": "usr-00064-abc-1ec0",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_64",
+                "last_name": "Sample_64",
+                "age": 34,
+                "address": {
+                    "street": "164 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0064",
+                    "coordinates": {
+                        "lat": -37.736,
+                        "lng": 145.064
+                    }
+                }
+            },
+            "scores": [
+                91,
+                66,
+                56,
+                69,
+                92
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 65,
+            "uuid": "usr-00065-abc-1f3b",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_65",
+                "last_name": "Sample_65",
+                "age": 35,
+                "address": {
+                    "street": "165 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0065",
+                    "coordinates": {
+                        "lat": -37.735,
+                        "lng": 145.065
+                    }
+                }
+            },
+            "scores": [
+                67,
+                71,
+                67,
+                60,
+                98
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 66,
+            "uuid": "usr-00066-abc-1fb6",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_66",
+                "last_name": "Sample_66",
+                "age": 36,
+                "address": {
+                    "street": "166 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0066",
+                    "coordinates": {
+                        "lat": -37.734,
+                        "lng": 145.066
+                    }
+                }
+            },
+            "scores": [
+                71,
+                73,
+                98,
+                100,
+                90
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 67,
+            "uuid": "usr-00067-abc-2031",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_67",
+                "last_name": "Sample_67",
+                "age": 37,
+                "address": {
+                    "street": "167 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0067",
+                    "coordinates": {
+                        "lat": -37.733,
+                        "lng": 145.067
+                    }
+                }
+            },
+            "scores": [
+                83,
+                94,
+                62,
+                82,
+                78
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 68,
+            "uuid": "usr-00068-abc-20ac",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_68",
+                "last_name": "Sample_68",
+                "age": 38,
+                "address": {
+                    "street": "168 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0068",
+                    "coordinates": {
+                        "lat": -37.732,
+                        "lng": 145.068
+                    }
+                }
+            },
+            "scores": [
+                74,
+                85,
+                79,
+                94,
+                59
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 69,
+            "uuid": "usr-00069-abc-2127",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_69",
+                "last_name": "Sample_69",
+                "age": 39,
+                "address": {
+                    "street": "169 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0069",
+                    "coordinates": {
+                        "lat": -37.731,
+                        "lng": 145.069
+                    }
+                }
+            },
+            "scores": [
+                66,
+                58,
+                81,
+                96,
+                72
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 70,
+            "uuid": "usr-00070-abc-21a2",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_70",
+                "last_name": "Sample_70",
+                "age": 40,
+                "address": {
+                    "street": "170 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0070",
+                    "coordinates": {
+                        "lat": -37.73,
+                        "lng": 145.07
+                    }
+                }
+            },
+            "scores": [
+                90,
+                76,
+                90,
+                50,
+                54
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 71,
+            "uuid": "usr-00071-abc-221d",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_71",
+                "last_name": "Sample_71",
+                "age": 41,
+                "address": {
+                    "street": "171 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0071",
+                    "coordinates": {
+                        "lat": -37.729,
+                        "lng": 145.071
+                    }
+                }
+            },
+            "scores": [
+                60,
+                100,
+                93,
+                51,
+                52
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 72,
+            "uuid": "usr-00072-abc-2298",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_72",
+                "last_name": "Sample_72",
+                "age": 42,
+                "address": {
+                    "street": "172 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0072",
+                    "coordinates": {
+                        "lat": -37.728,
+                        "lng": 145.072
+                    }
+                }
+            },
+            "scores": [
+                70,
+                85,
+                65,
+                78,
+                67
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 73,
+            "uuid": "usr-00073-abc-2313",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_73",
+                "last_name": "Sample_73",
+                "age": 43,
+                "address": {
+                    "street": "173 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0073",
+                    "coordinates": {
+                        "lat": -37.727,
+                        "lng": 145.073
+                    }
+                }
+            },
+            "scores": [
+                71,
+                97,
+                64,
+                81,
+                94
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 74,
+            "uuid": "usr-00074-abc-238e",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_74",
+                "last_name": "Sample_74",
+                "age": 44,
+                "address": {
+                    "street": "174 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0074",
+                    "coordinates": {
+                        "lat": -37.726,
+                        "lng": 145.074
+                    }
+                }
+            },
+            "scores": [
+                51,
+                51,
+                59,
+                87,
+                93
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 75,
+            "uuid": "usr-00075-abc-2409",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_75",
+                "last_name": "Sample_75",
+                "age": 45,
+                "address": {
+                    "street": "175 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0075",
+                    "coordinates": {
+                        "lat": -37.725,
+                        "lng": 145.075
+                    }
+                }
+            },
+            "scores": [
+                74,
+                99,
+                52,
+                59,
+                69
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 76,
+            "uuid": "usr-00076-abc-2484",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_76",
+                "last_name": "Sample_76",
+                "age": 46,
+                "address": {
+                    "street": "176 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0076",
+                    "coordinates": {
+                        "lat": -37.724,
+                        "lng": 145.076
+                    }
+                }
+            },
+            "scores": [
+                63,
+                61,
+                79,
+                50,
+                64
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 77,
+            "uuid": "usr-00077-abc-24ff",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_77",
+                "last_name": "Sample_77",
+                "age": 47,
+                "address": {
+                    "street": "177 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0077",
+                    "coordinates": {
+                        "lat": -37.723,
+                        "lng": 145.077
+                    }
+                }
+            },
+            "scores": [
+                52,
+                66,
+                62,
+                70,
+                60
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 78,
+            "uuid": "usr-00078-abc-257a",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_78",
+                "last_name": "Sample_78",
+                "age": 48,
+                "address": {
+                    "street": "178 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0078",
+                    "coordinates": {
+                        "lat": -37.722,
+                        "lng": 145.078
+                    }
+                }
+            },
+            "scores": [
+                88,
+                85,
+                96,
+                53,
+                78
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 79,
+            "uuid": "usr-00079-abc-25f5",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_79",
+                "last_name": "Sample_79",
+                "age": 49,
+                "address": {
+                    "street": "179 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0079",
+                    "coordinates": {
+                        "lat": -37.721,
+                        "lng": 145.079
+                    }
+                }
+            },
+            "scores": [
+                64,
+                93,
+                95,
+                85,
+                87
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 80,
+            "uuid": "usr-00080-abc-2670",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_80",
+                "last_name": "Sample_80",
+                "age": 50,
+                "address": {
+                    "street": "180 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0080",
+                    "coordinates": {
+                        "lat": -37.72,
+                        "lng": 145.08
+                    }
+                }
+            },
+            "scores": [
+                96,
+                69,
+                98,
+                81,
+                62
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 81,
+            "uuid": "usr-00081-abc-26eb",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_81",
+                "last_name": "Sample_81",
+                "age": 51,
+                "address": {
+                    "street": "181 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0081",
+                    "coordinates": {
+                        "lat": -37.719,
+                        "lng": 145.081
+                    }
+                }
+            },
+            "scores": [
+                50,
+                77,
+                74,
+                52,
+                65
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 82,
+            "uuid": "usr-00082-abc-2766",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_82",
+                "last_name": "Sample_82",
+                "age": 52,
+                "address": {
+                    "street": "182 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0082",
+                    "coordinates": {
+                        "lat": -37.718,
+                        "lng": 145.082
+                    }
+                }
+            },
+            "scores": [
+                54,
+                61,
+                62,
+                62,
+                67
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 83,
+            "uuid": "usr-00083-abc-27e1",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_83",
+                "last_name": "Sample_83",
+                "age": 53,
+                "address": {
+                    "street": "183 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0083",
+                    "coordinates": {
+                        "lat": -37.717,
+                        "lng": 145.083
+                    }
+                }
+            },
+            "scores": [
+                68,
+                98,
+                60,
+                72,
+                59
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 84,
+            "uuid": "usr-00084-abc-285c",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_84",
+                "last_name": "Sample_84",
+                "age": 54,
+                "address": {
+                    "street": "184 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0084",
+                    "coordinates": {
+                        "lat": -37.716,
+                        "lng": 145.084
+                    }
+                }
+            },
+            "scores": [
+                61,
+                96,
+                78,
+                74,
+                98
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 85,
+            "uuid": "usr-00085-abc-28d7",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_85",
+                "last_name": "Sample_85",
+                "age": 55,
+                "address": {
+                    "street": "185 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0085",
+                    "coordinates": {
+                        "lat": -37.715,
+                        "lng": 145.085
+                    }
+                }
+            },
+            "scores": [
+                87,
+                78,
+                54,
+                69,
+                52
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 86,
+            "uuid": "usr-00086-abc-2952",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_86",
+                "last_name": "Sample_86",
+                "age": 56,
+                "address": {
+                    "street": "186 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0086",
+                    "coordinates": {
+                        "lat": -37.714,
+                        "lng": 145.086
+                    }
+                }
+            },
+            "scores": [
+                77,
+                76,
+                75,
+                59,
+                51
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 87,
+            "uuid": "usr-00087-abc-29cd",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_87",
+                "last_name": "Sample_87",
+                "age": 57,
+                "address": {
+                    "street": "187 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0087",
+                    "coordinates": {
+                        "lat": -37.713,
+                        "lng": 145.087
+                    }
+                }
+            },
+            "scores": [
+                56,
+                79,
+                87,
+                95,
+                73
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 88,
+            "uuid": "usr-00088-abc-2a48",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_88",
+                "last_name": "Sample_88",
+                "age": 58,
+                "address": {
+                    "street": "188 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0088",
+                    "coordinates": {
+                        "lat": -37.712,
+                        "lng": 145.088
+                    }
+                }
+            },
+            "scores": [
+                50,
+                63,
+                93,
+                82,
+                83
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 89,
+            "uuid": "usr-00089-abc-2ac3",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_89",
+                "last_name": "Sample_89",
+                "age": 59,
+                "address": {
+                    "street": "189 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0089",
+                    "coordinates": {
+                        "lat": -37.711,
+                        "lng": 145.089
+                    }
+                }
+            },
+            "scores": [
+                72,
+                59,
+                74,
+                67,
+                90
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 90,
+            "uuid": "usr-00090-abc-2b3e",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_90",
+                "last_name": "Sample_90",
+                "age": 60,
+                "address": {
+                    "street": "190 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0090",
+                    "coordinates": {
+                        "lat": -37.71,
+                        "lng": 145.09
+                    }
+                }
+            },
+            "scores": [
+                55,
+                52,
+                61,
+                95,
+                73
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 91,
+            "uuid": "usr-00091-abc-2bb9",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_91",
+                "last_name": "Sample_91",
+                "age": 61,
+                "address": {
+                    "street": "191 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0091",
+                    "coordinates": {
+                        "lat": -37.709,
+                        "lng": 145.091
+                    }
+                }
+            },
+            "scores": [
+                63,
+                79,
+                98,
+                86,
+                82
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 92,
+            "uuid": "usr-00092-abc-2c34",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_92",
+                "last_name": "Sample_92",
+                "age": 62,
+                "address": {
+                    "street": "192 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0092",
+                    "coordinates": {
+                        "lat": -37.708,
+                        "lng": 145.092
+                    }
+                }
+            },
+            "scores": [
+                84,
+                91,
+                99,
+                85,
+                82
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 93,
+            "uuid": "usr-00093-abc-2caf",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_93",
+                "last_name": "Sample_93",
+                "age": 63,
+                "address": {
+                    "street": "193 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0093",
+                    "coordinates": {
+                        "lat": -37.707,
+                        "lng": 145.093
+                    }
+                }
+            },
+            "scores": [
+                73,
+                54,
+                87,
+                91,
+                62
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 94,
+            "uuid": "usr-00094-abc-2d2a",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_94",
+                "last_name": "Sample_94",
+                "age": 64,
+                "address": {
+                    "street": "194 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0094",
+                    "coordinates": {
+                        "lat": -37.706,
+                        "lng": 145.094
+                    }
+                }
+            },
+            "scores": [
+                81,
+                90,
+                84,
+                75,
+                80
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 95,
+            "uuid": "usr-00095-abc-2da5",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_95",
+                "last_name": "Sample_95",
+                "age": 65,
+                "address": {
+                    "street": "195 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0095",
+                    "coordinates": {
+                        "lat": -37.705,
+                        "lng": 145.095
+                    }
+                }
+            },
+            "scores": [
+                51,
+                85,
+                87,
+                81,
+                51
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 96,
+            "uuid": "usr-00096-abc-2e20",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_96",
+                "last_name": "Sample_96",
+                "age": 66,
+                "address": {
+                    "street": "196 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0096",
+                    "coordinates": {
+                        "lat": -37.704,
+                        "lng": 145.096
+                    }
+                }
+            },
+            "scores": [
+                88,
+                99,
+                90,
+                91,
+                78
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 97,
+            "uuid": "usr-00097-abc-2e9b",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_97",
+                "last_name": "Sample_97",
+                "age": 67,
+                "address": {
+                    "street": "197 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0097",
+                    "coordinates": {
+                        "lat": -37.703,
+                        "lng": 145.097
+                    }
+                }
+            },
+            "scores": [
+                64,
+                70,
+                56,
+                86,
+                89
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 98,
+            "uuid": "usr-00098-abc-2f16",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_98",
+                "last_name": "Sample_98",
+                "age": 68,
+                "address": {
+                    "street": "198 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0098",
+                    "coordinates": {
+                        "lat": -37.702,
+                        "lng": 145.098
+                    }
+                }
+            },
+            "scores": [
+                59,
+                69,
+                51,
+                86,
+                90
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 99,
+            "uuid": "usr-00099-abc-2f91",
+            "is_active": false,
+            "profile": {
+                "first_name": "User_99",
+                "last_name": "Sample_99",
+                "age": 69,
+                "address": {
+                    "street": "199 Main Street",
+                    "city": "Gotham",
+                    "postal_code": "90210-0099",
+                    "coordinates": {
+                        "lat": -37.701,
+                        "lng": 145.099
+                    }
+                }
+            },
+            "scores": [
+                87,
+                75,
+                99,
+                51,
+                76
+            ],
+            "roles": [
+                "viewer"
+            ],
+            "preferences": {
+                "theme": "dark",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        },
+        {
+            "id": 100,
+            "uuid": "usr-00100-abc-300c",
+            "is_active": true,
+            "profile": {
+                "first_name": "User_100",
+                "last_name": "Sample_100",
+                "age": 20,
+                "address": {
+                    "street": "200 Main Street",
+                    "city": "Metropolis",
+                    "postal_code": "90210-0100",
+                    "coordinates": {
+                        "lat": -37.7,
+                        "lng": 145.1
+                    }
+                }
+            },
+            "scores": [
+                86,
+                100,
+                82,
+                99,
+                81
+            ],
+            "roles": [
+                "admin",
+                "editor"
+            ],
+            "preferences": {
+                "theme": "light",
+                "notifications": {
+                    "email": true,
+                    "sms": false,
+                    "push": true
+                },
+                "null_test": null
+            }
+        }
+    ]
+}
